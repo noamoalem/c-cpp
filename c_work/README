@@ -1,0 +1,47 @@
+Name: noa moalem
+ID: 208533554
+CS-USER: noamoa
+
+SpreaderDetectorBackend
+-----------------------------
+Please explain how you dealt with the following parts of the exam.
+
+Input processing
+----------------
+In the input processing i decided to first read the people file, from every line in the file,
+i created a Person object which is a struct with the fields: name, id, age, and corona factor.
+I chose to save all the people objects in a dynamic array and when the array is full, the program
+double the size of the array, to avoid many realloc calls.
+For the meetings file, i used similar line, which is reading each line to get the information i
+needed, in order to avoid using large memory i didn’t save the information from this file, so after
+reading each line i calculated the corona factor of the relevant person and update the matching
+field (it works because the file build like a tree).
+
+
+Data storing
+------------
+For the people information i used a dynamic Person array, that is basically the only data i saved
+in my program, because i calculated the corona factor of each person while reading the file, and
+after that i didn't need the information from the meetings file anymore.
+
+
+Results sorting
+---------------
+I chose to sort the information that i saved twice.
+While working on the program i've found out that whats going to determine the running time would
+be calculating the corona factor of each person according to the given tree, and assuming that n is
+the number of the given people, i will be needed to search O(n) persons in the array i built to
+update their corona factor and each search will take O(n), so i wanted to think of a way to make the
+running time smaller then O(n^2).
+
+This is the reason i sort the information that i saved twice.
+first, after creating the persons array, i sort the array be ascending id number using quick sort
+and compare function that i implement.
+To be able to find each person i need according to a given id, i implement binary search that works
+in O(log(n)).
+Overall i got running time O(n*log(n)) - going over O(n) people, preforming binary search and
+calculating the corona factor.
+After all that, i was needed to sort the people according to their corona factor in order to create
+the required output file. I used quick sort and compare function that i implement, that sort the
+people in descending corona factor, then i went over the sorted array, comparing the corona factor
+of each person with the relevant parameters and print the matching message to the output file.

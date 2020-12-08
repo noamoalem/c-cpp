@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/noamoalem/CLionProjects/C_TARGILIM/Cwork/SpreaderDetectorBackend.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+SpreaderDetectorParams.h
+/Users/noamoalem/CLionProjects/C_TARGILIM/Cwork/SpreaderDetectorParams.h
+
+/Users/noamoalem/CLionProjects/C_TARGILIM/Cwork/SpreaderDetectorParams.h
+

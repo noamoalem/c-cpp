@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/VLVector.hpp
+iostream
+-
+stdexcept
+-
+
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/main.cpp
+iostream
+-
+VLVector.hpp
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/VLVector.hpp
+vector
+-
+algorithm
+-
+

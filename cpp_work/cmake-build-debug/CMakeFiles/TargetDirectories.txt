@@ -1,0 +1,3 @@
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noamoalem/CLionProjects/CPP_TARGILIM/cpp_exam/cmake-build-debug/CMakeFiles/cpp_exam.dir
