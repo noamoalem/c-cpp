@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/noamoalem/CLionProjects/ctargilim/ex1/manageStudents.c
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+
