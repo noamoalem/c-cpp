@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/noamoalem/CLionProjects/C_TARGILIM/ex1/Matrix.cpp
+fstream
+-
+Matrix.h
+/Users/noamoalem/CLionProjects/C_TARGILIM/ex1/Matrix.h
+
+/Users/noamoalem/CLionProjects/C_TARGILIM/ex1/Matrix.h
+iostream
+-
+
